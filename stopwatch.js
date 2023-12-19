@@ -26,7 +26,7 @@ function Stopwatch() {
     this.reset = function () {
         duration = 0;
     };
-    Object.defineProperty(this, 'duration' {
+    Object.defineProperty(this, 'duration', {
         get: function() {
             return duration;
         }
